@@ -8,7 +8,18 @@ Simple React tabs menu
     
 </div>
 
-<script>
+```jsx
+class HelloMessage extends React.Component {
+  render() {
+    return <div>Hello {this.props.name}</div>;
+  }
+}
+
+ReactDOM.render(
+  <HelloMessage name="Taylor" />,
+  document.getElementById('root')
+);
+```
  var data = [
   {id : '1',
    tabTitle: "Tab 1",
